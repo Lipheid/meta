@@ -10,5 +10,6 @@ while [ $i -le $cnt ]; do
     passwd -d user$i
     let i+=1
 done
-echo Complete!
-echo `tail /etc/passwd`
+
+echo "Complete!"
+echo `ls /home/`
