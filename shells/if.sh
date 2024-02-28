@@ -4,6 +4,6 @@ man=10
 woman=20
 
 if [ $man -lt $woman ]
-than
+then
     echo woman
 fi

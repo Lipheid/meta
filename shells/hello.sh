@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo Hello Sjell Script-!!
+echo Hello Shell Script-!!
