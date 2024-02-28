@@ -4,7 +4,7 @@ echo -n "input: "
 read a
 
 case $((a / 10)) in
-    9)
+    [10-9])
         echo A
         ;;
     8)
