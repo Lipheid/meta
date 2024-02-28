@@ -1,6 +1,6 @@
 #!/bin/bash
 
-count =1 
+count=1 
 cat test | while read line
 do
     echo "Line $count : $line"
