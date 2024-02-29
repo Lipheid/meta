@@ -2,14 +2,11 @@
 #include "libcheckeod.h"
 
 void main() {
-    int value, result;
-    printf("Input value : ");
-    scanf("%d", &value);
-    result = checkeod(value);
-    if (result == 0) {
-        printf("value : Even number\n");
-    } else {
-        printf("value : Odd number\n");
-    }
-    
+    int n;
+    printf("Input number : ");
+    scanf("%d", &n);
+    if(checkeod(n) == 0) 
+        printf("%d is even number~!!\n", n);
+    else
+        printf("%d is odd number~!!\n", n);
 }
